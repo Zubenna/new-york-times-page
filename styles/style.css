@@ -56,7 +56,6 @@ header {
 }
 
 .page-title p{ 
-    /* margin-top: 2rem; */
     text-align: left; 
     font-size: 2.5rem; 
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif; 
@@ -64,14 +63,62 @@ header {
     margin: 6rem 0 2rem 15rem; 
 }
 .main-page figure{
-    text-align: center;
+    text-align: center; 
 }
 
 .main-page figure img{
-    width: 80%;
-    height: 80%;   
+    width: 80%; 
+    height: 90%;   
 }
-.main-page figure{
-    text-align: center;
-    
+.main-page figcaption{
+    margin-left: 8.1rem; 
+    padding-top: 0.5rem;
+    text-align: left;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
+figcaption span{
+    font-size: 0.75rem;
+    color: #888;
+}
+.main-page article{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+ article span a{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #333;
+    text-decoration: none;
+    padding-left: 0.2rem;
+    font-weight: 700;
+ }
+ article span{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #333;
+    font-weight: 700;
+ }
+ article h3{
+    color: #666;
+    font-size: 0.82rem;  
+ }
+ .social-icon-main{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 2rem;
+ }
+ .social-icons .fa{
+  width: 2rem;
+  margin-bottom: 3rem;
+ }
+ .social-icons img{
+     width: 1rem;
+     height: 1rem;
+ }
