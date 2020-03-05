@@ -24,9 +24,6 @@ header {
 .menu-bar{
     margin-top: 0.7rem;
 }
-.nav-image img{
-    /* margin-bottom: -2rem; */
-}
 
 .menu-bar a {
     margin-left: 1.3rem;
@@ -115,10 +112,28 @@ figcaption span{
      margin-top: 2rem;
  }
  .social-icons .fa{
-  width: 2rem;
+  width: 1.8rem;
   margin-bottom: 3rem;
  }
  .social-icons img{
      width: 1rem;
      height: 1rem;
  }
+.social-icons{
+    cursor: pointer;
+}
+.paragraph-group-one, .paragraph-group-two{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;
+}
+.paragraph-group-one p, .paragraph-group-two p{
+    margin-bottom: 0.9375rem;
+}
+.sub-title{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-weight: 700;
+}
