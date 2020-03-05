@@ -1,6 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 2.8rem;
+    width: 100%;
+    background-color: #fff; 
+    border-top: 1px solid #e0ebeb;
+    border-bottom: 1px solid #e0ebeb;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
 
 .nav-bar {
     display: flex;
-    justify-content: space-evenly;
-    margin: 2rem;
+    justify-content: space-between;
+    margin: 0 1.5rem; 
 }
+     
+.fa-search {
+ margin-left: 1.3rem;
+}
+.menu-bar{
+    margin-top: 0.7rem;
+}
+.nav-image img{
+    /* margin-bottom: -2rem; */
+}
+
+.menu-bar a {
+    margin-left: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-btn button{
+    margin-top: 0.3rem;
+    font-size: 0.68rem;
+    height: 2rem;
+    color: #fff;
+    background-color: #567B95;
+    justify-self: center;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.sub-btn {
+    width: 8rem;
+} 
+
+.log-in-btn {
+    width: 4rem;
+}
+
+.page-title p{ 
+    text-align: left; 
+    font-size: 2.5rem; 
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif; 
+    width: 37%;
+    margin: 6rem 0 2rem 15rem; 
+}
+.main-page figure{
+    text-align: center; 
+}
+
+.main-page figure img{
+    width: 80%; 
+    height: 90%;   
+}
+.main-page figcaption{
+    margin-left: 8.1rem; 
+    padding-top: 0.5rem;
+    text-align: left;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+figcaption span{
+    font-size: 0.75rem;
+    color: #888;
+}
+.main-page article{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+ article span a{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #333;
+    text-decoration: none;
+    padding-left: 0.2rem;
+    font-weight: 700;
+ }
+ article span{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #333;
+    font-weight: 700;
+ }
+ article h3{
+    color: #666;
+    font-size: 0.82rem;  
+ }
+ .social-icon-main{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 2rem;
+ }
+ .social-icons .fa{
+  width: 2rem;
+  margin-bottom: 3rem;
+ }
+ .social-icons img{
+     width: 1rem;
+     height: 1rem;
+ }
