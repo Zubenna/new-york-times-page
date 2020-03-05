@@ -116,8 +116,8 @@ figcaption span{
   margin-bottom: 3rem;
  }
  .social-icons img{
-     width: 1rem;
-     height: 1rem;
+     width: 1.2rem;
+     height: 1.3rem;
  }
 .social-icons{
     cursor: pointer;
@@ -137,3 +137,33 @@ figcaption span{
     line-height: 1.5625rem;
     font-weight: 700;
 }
+.create-account a{
+    text-decoration: none;
+}
+
+.account-hr-up {
+  margin-bottom: 1rem;
+}
+
+.account-hr-down {
+  margin-top: 1rem;  
+}
+.create-account {
+    width: 13rem;
+    margin: 0 auto;
+    font-family: nyt-franklin;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+}
+.create-account hr{
+    width: 5rem;
+    margin-left: 3rem;
+} 
+.sign-container {
+  padding: 3rem;
+  display: grid;
+  grid-gap: 0.4rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}     
