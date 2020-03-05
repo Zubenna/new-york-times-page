@@ -1,0 +1,9 @@
+header{
+    margin: 0 2rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
