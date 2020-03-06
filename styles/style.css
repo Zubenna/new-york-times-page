@@ -137,26 +137,27 @@ figcaption span{
     line-height: 1.5625rem;
     font-weight: 700;
 }
-.create-account a{
-    text-decoration: none;
+.inflation{
+    margin: 3rem auto 0 10rem;
 }
-
-.account-hr-up {
-  margin-bottom: 1rem;
+.inflation p{
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666
 }
-
-.account-hr-down {
-  margin-top: 1rem;  
+.sign-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding: 0 10rem 5rem 10rem;
 }
-.create-account {
-    width: 13rem;
-    margin: 0 auto;
-    font-family: nyt-franklin;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19px;
-    text-align: center;
+.sub-now-btn{
+    cursor: pointer;
 }
+<<<<<<< HEAD
 .create-account hr{
     width: 5rem;
     margin-left: 3rem;
@@ -184,3 +185,5 @@ figcaption span{
 }
 
   
+=======
+>>>>>>> b4cfa44fae7a75eb05af81574924ac2e8ccc4f3b
