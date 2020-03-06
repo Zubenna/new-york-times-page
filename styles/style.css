@@ -137,3 +137,23 @@ figcaption span{
     line-height: 1.5625rem;
     font-weight: 700;
 }
+.inflation{
+    margin: 3rem auto 0 10rem;
+}
+.inflation p{
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666
+}
+.sign-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding: 0 10rem 5rem 10rem;
+}
+.sub-now-btn{
+    cursor: pointer;
+}
