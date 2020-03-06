@@ -82,7 +82,7 @@ figcaption span{
 }
 .main-page article{
     text-align: left;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
@@ -122,13 +122,13 @@ figcaption span{
 .social-icons{
     cursor: pointer;
 }
-.paragraph-group-one, .paragraph-group-two{
+.paragraph-group-one, .paragraph-group-two, .paragraph-group-three{
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #333;
 }
-.paragraph-group-one p, .paragraph-group-two p{
+.paragraph-group-one p, .paragraph-group-two p, .paragraph-group-three p{ 
     margin-bottom: 0.9375rem;
 }
 .sub-title{
@@ -157,15 +157,37 @@ figcaption span{
 .sub-now-btn{
     cursor: pointer;
 }
-<<<<<<< HEAD
+.create-account{
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    font-family: nyt-franklin;
+    font-weight: 700;
+    font-size: 0.93rem;
+    line-height: 1.17rem;
+}
 .create-account hr{
-    width: 5rem;
-    margin-left: 3rem;
-} 
+     width: 5rem;
+     margin-left: 3rem;   
+}
+.create-account a{
+ text-decoration: none;
+ color: #326891;
+}
+.create-account p{
+    margin-bottom: 0.2rem;
+    color: #333;
+}
+.account-hr-up{
+  margin-bottom: 1rem;
+}
+.account-hr-down{
+  margin-top: 1rem;
+}
+
 .sign-container {
   padding: 0 12rem;
   display: grid;
-  grid-gap: 0.4rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 } 
  .various-sign-container {
@@ -174,16 +196,73 @@ figcaption span{
  }
 .title-container h2{
    margin-top: 2rem;
-   margin-left: 12rem; 
+   margin-left: 12rem;
+   font-size: 1.25rem;
+   line-height: 1.5rem;
+   font-weight: 700;
+   font-style: normal;
+   font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+
 } 
 .title-container p{
     margin-top: 0.4rem;
     margin-left: 12rem; 
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
 }
-.signbox img{
-    
+.image-container{
+  width: 50%; 
+  height: 40%;  
+}
+.sign-container span{
+    color: #000;
+    line-height: 1.06rem;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+
+}
+.sign-container p{
+    font-size: 0.87rem;
+    line-height: 1.06rem;
+    font-weight: 300;
+     color: #000;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+.sign-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem; 
+
+}
+.larry-hr hr{
+    width: 4rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+.larry-hr p{
+    margin-left: 12rem;
+    margin-top: 1rem;
+    color: #333; 
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif; 
+}
+.paragraph-group-three {
+    margin-top: 4rem;
+}
+.embedded-video{
+    width: 48%;
+    margin: 0 auto;
+}
+
+.embedded-video iframe {
+    width: 100%;
+    height: 20rem;
+    margin-top: 3rem;
 }
 
   
-=======
->>>>>>> b4cfa44fae7a75eb05af81574924ac2e8ccc4f3b
