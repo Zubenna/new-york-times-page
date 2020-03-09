@@ -59,15 +59,15 @@ header {
     width: 37%;
     margin: 6rem 0 2rem 15rem; 
 }
-.main-page figure{
+.main-page .main-picture{
     text-align: center; 
 }
 
-.main-page figure img{
+.main-page .main-picture img{
     width: 80%; 
     height: 90%;   
 }
-.main-page figcaption{
+ .main-picture figcaption{
     margin-left: 8.1rem; 
     padding-top: 0.5rem;
     text-align: left;
@@ -122,16 +122,18 @@ figcaption span{
 .social-icons{
     cursor: pointer;
 }
-.paragraph-group-one, .paragraph-group-two, .paragraph-group-three{
+.paragraph-group-one, .paragraph-group-two, .paragraph-group-three,
+.paragraph-group-four, .paragraph-group-five{
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #333;
 }
-.paragraph-group-one p, .paragraph-group-two p, .paragraph-group-three p{ 
+.paragraph-group-one p, .paragraph-group-two p, .paragraph-group-three p,
+ .paragraph-group-four p, .paragraph-group-five p{ 
     margin-bottom: 0.9375rem;
 }
-.sub-title{
+.sub-title, .paragraph-group-four span, .paragraph-group-five span{
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.125rem;
     line-height: 1.5625rem;
@@ -254,15 +256,162 @@ figcaption span{
 .paragraph-group-three {
     margin-top: 4rem;
 }
-.embedded-video{
+.embedded-video, .second-picture{
     width: 48%;
     margin: 0 auto;
 }
-
-.embedded-video iframe {
+.embedded-video iframe, .second-picture img {
     width: 100%;
-    height: 20rem;
+    height: 23rem;
     margin-top: 3rem;
 }
+.embedded-video span {
+    font-family: nyt-franklin,arial,helvetica,sans-serif; 
+    color: #333; 
+}
+.second-picture figcaption{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333; 
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif; 
+    
+}
+.paragraph-group-four, .paragraph-group-five{
+    margin-top: 2rem;
+}
+.article-version{
+    text-align: left;
+    font-size: 0.8rem; 
+    line-height: normal; 
+    color: #666;
+}
+.article-version a{
+    color: #666;
+}
+.social-icon-two{
+    display: flex;
+    width: 55%;
+    margin: 2rem auto 0 auto;
+}
+.second-icons {
+    margin-left: 15rem;
+}
+.second-icons .fa{
+ margin-right: 0.6rem;
+}
+.read-btn{
+    background-color: #326891;
+    color: #fff;
+    height: 2rem;
+    margin-left: 3rem;
+    width: 16rem;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.3rem;
+    margin-bottom: 4rem;
+}
+.second-logo-group{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+.second-container, .editor-pic-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 1rem; 
+}
 
+.editor-pic-container {
+    
+}
+
+.Editor-pic-wrapper { 
+    margin-top: 2.5rem; 
+    width: 68%; 
+    margin-left: 3rem;  
+}
+
+.logo-container-two {
+    margin-left: 3rem;
+}
+
+.logo-container-two a, .second-image-title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-container-two h4{
+    border-top: 1px solid #000; 
+    padding: 1rem 0;
+    width: 70%; 
+    margin-bottom: 1rem;
+}
+
+.second-side-title {
+    position: relative;
+    bottom:4.2rem;
+    margin-left: 2rem;  
+    margin-right: 3rem; 
+}
+
+.second-side-title a{
+    /* padding: 2rem 0; */
+    color: #121212;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.second-side-title hr{
+    margin: 1rem 0; 
+}
+
+.second-side-title h4{
+    border-top: 1px solid #000; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;  
+}
+
+.second-image-title :first-child{
+    text-align: right;
+    font-size:x-small;
+    display: block;
+}
+
+.second-image-title :nth-child(2){
+    display: block;
+    padding: 0.2rem 0;
+}
+
+.second-image-title span{
+    text-align: left;
+    margin-top: 1rem;
+    color:  #333;
+}
+
+.editor-pick {
+    width: 15rem; 
+    position: absolute;
+    top: 10rem; 
+    left: 62rem;
+}
+
+.img-link {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.img-link a{
+    padding-left: 0.5rem;
+}
+
+.img-link img{
+    width: 6rem;
+    height: 6rem;
+}
   
