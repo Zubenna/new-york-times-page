@@ -313,24 +313,17 @@ figcaption span{
     border-radius: 0.3rem;
     margin-bottom: 4rem;
 }
-.second-logo-group{
-    display: grid;
-    grid-template-columns: 7fr 3fr;
-}
-.second-container, .editor-pic-container {
+.second-container, .editor-pic-horizontal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-gap: 1rem; 
+    grid-gap: 1rem;
+    width: 68%;
 }
-
-.editor-pic-container {
-    
-}
-
-.Editor-pic-wrapper { 
-    margin-top: 2.5rem; 
+.editor-pic-horiz-wrapper { 
     width: 68%; 
-    margin-left: 3rem;  
+    margin-left: 3rem; 
+    position: absolute; 
+    top: 620rem;
 }
 
 .logo-container-two {
@@ -350,17 +343,15 @@ figcaption span{
 }
 
 .second-side-title {
-    position: relative;
-    bottom:4.2rem;
-    margin-left: 2rem;  
-    margin-right: 3rem; 
+    position: absolute;
+    left: 60rem;
+    top: 579.4rem;
+    width: 20%; 
 }
-
 .second-side-title a{
-    /* padding: 2rem 0; */
     color: #121212;
-    font-size: 1.1875rem;
-    line-height: 1.4375rem;
+    font-size: 1.18rem;
+    line-height: 1.43rem;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-weight: 500;
     text-decoration: none;
@@ -394,10 +385,16 @@ figcaption span{
     color:  #333;
 }
 
+.editor-pic-horiz-wrapper h4{
+    width: 100%;
+    border-top: 1px solid #000;
+    padding: 1rem 0; 
+}
+
 .editor-pick {
     width: 15rem; 
     position: absolute;
-    top: 10rem; 
+    top: 115rem; 
     left: 62rem;
 }
 
@@ -414,4 +411,83 @@ figcaption span{
     width: 6rem;
     height: 6rem;
 }
-  
+
+footer{
+   margin: 0 1rem; 
+   position: absolute;
+   top: 642rem;
+   width: 100%;
+}
+
+footer hr{
+    width: 100%;
+}
+
+.footer-titlte{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+}
+
+.footer-titlte :last-child{
+    color: #567B95;
+    font-size: small;
+    text-decoration: none;
+}
+
+.list-title{
+    font-size: medium;
+    font-weight: bolder;
+    margin-bottom: 0.4rem;
+}
+
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list ul a{
+   text-decoration: none;
+   color: #000;
+   font-size: 0.9rem; 
+}
+
+.footer-list ul li{
+    /* margin: 0.5rem 0; */
+}
+
+.footer-list-six li :nth-child(n+2){
+    font-weight: bold;
+}
+
+.footer-items ul a{
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-list-six img{
+  margin-right: 0.4rem;
+}
+.footer-list-six {
+    border-left: 0.7px solid #888;
+    padding-left: 0.8rem;
+    /* height: 90%; */
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* width: 80%; */
+}
+
+.footer-items ul{
+    display: flex;
+    list-style: none;
+    font-size: x-small;
+    /* margin: 0.5rem auto;  */
+    justify-content: center;
+    margin-right: 0.1rem;
+
+    /* width: 1rem; */
+}
+
