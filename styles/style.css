@@ -1,0 +1,632 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 2.8rem;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #e0ebeb;
+  border-bottom: 1px solid #e0ebeb;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+}
+
+.fa-search {
+  margin-left: 1.3rem;
+}
+
+.menu-bar {
+  margin-top: 0.7rem;
+}
+
+article span a {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+  padding-left: 0.2rem;
+  font-weight: 700;
+}
+
+.menu-bar a {
+  margin-left: 1.3rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-btn button {
+  margin-top: 0.3rem;
+  font-size: 0.68rem;
+  height: 2rem;
+  color: #fff;
+  background-color: #567b95;
+  justify-self: center;
+  box-shadow: none;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.sub-btn {
+  width: 8rem;
+}
+
+.log-in-btn {
+  width: 4rem;
+}
+
+.page-title p {
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  width: 37%;
+  margin: 6rem 0 2rem 15rem;
+}
+
+.main-page .main-picture {
+  text-align: center;
+}
+
+.social-icons img {
+  width: 1.2rem;
+  height: 1.3rem;
+}
+
+.img-link img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer-list-six img {
+  margin-right: 0.4rem;
+}
+
+.second-picture img {
+  width: 100%;
+  height: 23rem;
+  margin-top: 3rem;
+}
+
+.main-picture img {
+  width: 80%;
+  height: 90%;
+}
+
+.main-picture figcaption {
+  margin-left: 8.1rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+figcaption span {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.main-page article {
+  text-align: left;
+  width: 48%;
+  margin: 0 auto;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+article span {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #333;
+  font-weight: 700;
+}
+
+article h3 {
+  color: #666;
+  font-size: 0.82rem;
+}
+
+.social-icon-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.social-icons .fa {
+  width: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.social-icons {
+  cursor: pointer;
+  margin-left: 22.2rem;
+  margin-top: 0.1rem;
+}
+
+.social-icon-main img {
+  width: 1.4rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.paragraph-group-one,
+.paragraph-group-two,
+.paragraph-group-three,
+.paragraph-group-four,
+.paragraph-group-five {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  color: #333;
+}
+
+.paragraph-group-one p,
+.paragraph-group-two p,
+.paragraph-group-three p,
+.paragraph-group-four p,
+.paragraph-group-five p {
+  margin-bottom: 0.9375rem;
+}
+
+.sub-title,
+.paragraph-group-four span,
+.paragraph-group-five span {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-weight: 700;
+}
+
+.inflation {
+  margin: 3rem auto 0 10rem;
+}
+
+.inflation p {
+  font-size: 1rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
+}
+
+.sign-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 0 10rem 5rem 10rem;
+}
+
+.sub-now-btn {
+  cursor: pointer;
+}
+
+.create-account {
+  width: 12rem;
+  text-align: center;
+  margin: 0 auto;
+  font-family: nyt-franklin, georgia, times new roman, times, serif;
+  font-weight: 700;
+  font-size: 0.93rem;
+  line-height: 1.17rem;
+}
+
+footer hr {
+  width: 100%;
+}
+
+.create-account hr {
+  width: 5rem;
+  margin-left: 3rem;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #326891;
+}
+
+.create-account p {
+  margin-bottom: 0.2rem;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+.account-hr-up {
+  margin-bottom: 1rem;
+}
+
+.account-hr-down {
+  margin-top: 1rem;
+}
+
+.sign-container-two {
+  padding: 0 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.various-sign-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container h2 {
+  margin-top: 2rem;
+  margin-left: 12rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+}
+
+.title-container p {
+  margin-top: 0.4rem;
+  margin-left: 12rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+}
+
+.image-container {
+  width: 50%;
+  height: 40%;
+}
+
+.sign-container span {
+  color: #000;
+  line-height: 1.06rem;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.sign-container p {
+  font-size: 0.87rem;
+  line-height: 1.06rem;
+  font-weight: 300;
+  color: #000;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.sign-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+}
+
+.larry-hr hr {
+  width: 4rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.larry-hr h3 {
+  margin-left: 12rem;
+  margin-top: 1rem;
+  color: #333;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.paragraph-group-three {
+  margin-top: 4rem;
+}
+
+.embedded-video,
+.second-picture {
+  width: 48%;
+  margin: 0 auto;
+}
+
+.embedded-video iframe {
+  width: 100%;
+  height: 23rem;
+  margin-top: 3rem;
+}
+
+.embedded-video span {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  color: #333;
+}
+
+.second-picture figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.paragraph-group-four,
+.paragraph-group-five {
+  margin-top: 2rem;
+}
+
+.article-version {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: normal;
+  color: #666;
+}
+
+.article-version a {
+  color: #666;
+}
+
+.social-icon-two {
+  display: flex;
+  width: 55%;
+  margin: 2rem auto 0 auto;
+}
+
+.second-icons {
+  margin-left: 15rem;
+}
+
+.second-icons .fa {
+  margin-right: 0.6rem;
+}
+
+.read-btn {
+  background-color: #326891;
+  color: #fff;
+  height: 2rem;
+  margin-left: 3rem;
+  width: 16rem;
+  box-shadow: none;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+.second-container,
+.editor-pic-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  width: 68%;
+}
+
+.editor-pic-horiz-wrapper {
+  width: 68%;
+  margin-left: 3rem;
+  position: absolute;
+  top: 601rem;
+}
+
+.logo-container-two {
+  margin-left: 3rem;
+}
+
+.logo-container-two a,
+.second-image-title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-container-two h4 {
+  border-top: 1px solid #000;
+  padding: 1rem 0;
+  width: 67%;
+  margin-bottom: 1rem;
+}
+
+.second-side-title {
+  position: absolute;
+  left: 62rem;
+  top: 559.5rem;
+  width: 20%;
+}
+
+.second-side-title a {
+  color: #121212;
+  font-size: 1.18rem;
+  line-height: 1.43rem;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.second-side-title hr {
+  margin: 1rem 0;
+}
+
+.second-side-title h4 {
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.second-image-title :first-child {
+  text-align: right;
+  font-size: x-small;
+  display: block;
+}
+
+.second-image-title :nth-child(2) {
+  display: block;
+  padding: 0.2rem 0;
+}
+
+.second-image-title span {
+  text-align: left;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.editor-pic-horiz-wrapper h4 {
+  width: 96%;
+  border-top: 1px solid #000;
+  padding: 1rem 0;
+}
+
+.editor-pick {
+  width: 18%;
+  position: absolute;
+  top: 115rem;
+  margin-left: 65rem;
+}
+
+.editor-pick hr {
+  margin: 1rem 0;
+}
+
+.side-cotainer a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.img-link {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.img-link a {
+  padding-left: 0.5rem;
+}
+
+footer {
+  position: absolute;
+  top: 625rem;
+  width: 90%;
+  margin-left: 3rem;
+}
+
+.footer-titlte {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+  margin-top: 1rem;
+}
+
+.footer-titlte :last-child {
+  color: #567b95;
+  font-size: small;
+  text-decoration: none;
+}
+
+.list-title {
+  font-size: medium;
+  font-weight: bolder;
+  margin-bottom: 0.4rem;
+}
+
+.footer-list ul {
+  list-style: none;
+}
+
+.fixed-bottom a {
+  margin-top: 3rem;
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-list ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  padding-bottom: 0.3rem;
+}
+
+.footer-items ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-list a:hover,
+.footer-items a:hover {
+  text-decoration: underline;
+}
+
+.footer-list-six li :nth-child(n+2) {
+  font-weight: bold;
+}
+
+.footer-list-six {
+  border-left: 0.7px solid #888;
+  padding-left: 0.8rem;
+}
+
+.footer-list ul li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.footer-list-six .education {
+  border-bottom: 0.7px solid #888;
+}
+
+.footer-items {
+  height: 2.5rem;
+}
+
+.footer-items ul {
+  display: flex;
+  list-style: none;
+  font-size: x-small;
+  justify-content: space-evenly;
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.fixed-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 1px solid #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 1.3rem;
+}
+
+.button-container {
+  float: right;
+}
+
+.sub-now-btn-two {
+  margin-right: 2rem;
+  background: transparent;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: none;
+  color: #000;
+  padding-bottom: 1.2rem;
+}
+
+.button-container i {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  padding-bottom: 1.4rem;
+}
