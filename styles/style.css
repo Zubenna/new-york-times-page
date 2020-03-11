@@ -10,6 +10,8 @@ header {
   border-top: 1px solid #e0ebeb;
   border-bottom: 1px solid #e0ebeb;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  position: fixed;
+  top: 0;
 }
 
 .nav-bar {
@@ -95,7 +97,7 @@ article span a {
   margin-top: 3rem;
 }
 
-.main-page .main-picture img {
+.main-picture img {
   width: 80%;
   height: 90%;
 }
@@ -402,7 +404,7 @@ footer hr {
   width: 68%;
   margin-left: 3rem;
   position: absolute;
-  top: 620rem;
+  top: 601rem;
 }
 
 .logo-container-two {
@@ -418,14 +420,14 @@ footer hr {
 .logo-container-two h4 {
   border-top: 1px solid #000;
   padding: 1rem 0;
-  width: 70%;
+  width: 67%;
   margin-bottom: 1rem;
 }
 
 .second-side-title {
   position: absolute;
-  left: 60rem;
-  top: 579.4rem;
+  left: 62rem;
+  top: 560rem;
   width: 20%;
 }
 
@@ -467,16 +469,19 @@ footer hr {
 }
 
 .editor-pic-horiz-wrapper h4 {
-  width: 100%;
+  width: 96%;
   border-top: 1px solid #000;
   padding: 1rem 0;
 }
 
 .editor-pick {
-  width: 15rem;
+  width: 18%;
   position: absolute;
   top: 115rem;
-  left: 62rem;
+  margin-left: 65rem;
+}
+.editor-pick hr {
+  margin: 1rem 0;
 }
 
 .side-cotainer a {
@@ -496,7 +501,7 @@ footer hr {
 
 footer {
   position: absolute;
-  top: 642rem;
+  top: 625rem;
   width: 90%;
   margin-left: 3rem;
 }
