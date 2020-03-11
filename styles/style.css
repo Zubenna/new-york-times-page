@@ -552,6 +552,11 @@ footer {
   padding-bottom: 0.3rem;
 }
 
+.footer-items ul a {
+  text-decoration: none;
+  color: #333;
+}
+
 .footer-list a:hover,
 .footer-items a:hover {
   text-decoration: underline;
@@ -559,11 +564,6 @@ footer {
 
 .footer-list-six li :nth-child(n+2) {
   font-weight: bold;
-}
-
-.footer-items ul a {
-  text-decoration: none;
-  color: #333;
 }
 
 .footer-list-six {
