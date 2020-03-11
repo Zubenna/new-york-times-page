@@ -22,7 +22,7 @@ This project is a clone of the [nytimes.com](https://mytimes.com) New york times
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/new-york-times-page/e626078142942bc0b30243f731642fc2bd9858fa/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/new-york-times-page/fb13332c47206d453ffa31b71233118663ae7fc6/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
