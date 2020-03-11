@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-}
+  }
 
 header {
     height: 2.8rem;
@@ -24,6 +24,16 @@ header {
 
 .menu-bar {
     margin-top: 0.7rem;
+}
+
+article span a {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+  padding-left: 0.2rem;
+  font-weight: 700;
 }
 
 .menu-bar a {
@@ -65,6 +75,27 @@ header {
     text-align: center;
 }
 
+.social-icons img {
+  width: 1.2rem;
+  height: 1.3rem;
+}
+
+.embedded-video iframe,
+.second-picture img {
+    width: 100%;
+    height: 23rem;
+    margin-top: 3rem;
+}
+
+.img-link img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer-list-six img {
+  margin-right: 0.4rem;
+}
+
 .main-page .main-picture img {
     width: 80%;
     height: 90%;
@@ -92,16 +123,6 @@ figcaption span {
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
-article span a {
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    color: #333;
-    text-decoration: none;
-    padding-left: 0.2rem;
-    font-weight: 700;
-}
-
 article span {
     font-size: 0.9375rem;
     line-height: 1.25rem;
@@ -124,11 +145,6 @@ article h3 {
 .social-icons .fa {
     width: 1.8rem;
     margin-bottom: 3rem;
-}
-
-.social-icons img {
-    width: 1.2rem;
-    height: 1.3rem;
 }
 
 .social-icons {
@@ -187,6 +203,10 @@ article h3 {
     line-height: 1.17rem;
 }
 
+footer hr {
+  width: 100%;
+}
+
 .create-account hr {
     width: 5rem;
     margin-left: 3rem;
@@ -214,7 +234,7 @@ article h3 {
     margin-top: 1rem;
 }
 
-.sign-container {
+.sign-container-two {
     padding: 0 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -461,20 +481,11 @@ article h3 {
     padding-left: 0.5rem;
 }
 
-.img-link img {
-    width: 6rem;
-    height: 6rem;
-}
-
 footer {
     position: absolute;
     top: 642rem;
     width: 90%;
     margin-left: 3rem;
-}
-
-footer hr {
-    width: 100%;
 }
 
 .footer-titlte {
@@ -500,6 +511,13 @@ footer hr {
     list-style: none;
 }
 
+.fixed-bottom a {
+  margin-top: 3rem;
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
 .footer-list ul a {
     text-decoration: none;
     color: #000;
@@ -514,10 +532,6 @@ footer hr {
 .footer-items ul a {
     text-decoration: none;
     color: #333;
-}
-
-.footer-list-six img {
-    margin-right: 0.4rem;
 }
 
 .footer-list-six {
@@ -565,18 +579,11 @@ footer hr {
     padding-top: 1.3rem;
 }
 
-.fixed-bottom a {
-    margin-top: 3rem;
-    color: #000;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
 .button-container {
     float: right;
 }
 
-.sub-now-btn {
+.sub-now-btn-two {
     margin-right: 2rem;
     background: transparent;
     font-size: 0.7rem;
