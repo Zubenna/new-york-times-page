@@ -80,13 +80,6 @@ article span a {
   height: 1.3rem;
 }
 
-.embedded-video iframe,
-.second-picture img {
-  width: 100%;
-  height: 23rem;
-  margin-top: 3rem;
-}
-
 .img-link img {
   width: 6rem;
   height: 6rem;
@@ -94,6 +87,12 @@ article span a {
 
 .footer-list-six img {
   margin-right: 0.4rem;
+}
+
+.second-picture img {
+  width: 100%;
+  height: 23rem;
+  margin-top: 3rem;
 }
 
 .main-page .main-picture img {
@@ -328,8 +327,7 @@ footer hr {
   margin: 0 auto;
 }
 
-.embedded-video iframe,
-.second-picture img {
+.embedded-video iframe {
   width: 100%;
   height: 23rem;
   margin-top: 3rem;
