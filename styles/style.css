@@ -144,7 +144,7 @@ article h3 {
 }
 
 .social-icons .fa {
-  width: 1.8rem;
+  width: 1.3rem;
   margin-bottom: 3rem;
 }
 
@@ -157,7 +157,7 @@ article h3 {
 .social-icon-main img {
   width: 1.4rem;
   height: 1.5rem;
-  margin-right: 1rem;
+  margin-right: 1rem; 
 }
 
 .paragraph-group-one,
@@ -412,7 +412,7 @@ footer hr {
   width: 68%;
   margin-left: 3rem;
   position: absolute;
-  top: 601rem;
+  margin-top: 2rem;
 }
 
 .logo-container-two {
@@ -434,8 +434,8 @@ footer hr {
 
 .second-side-title {
   position: absolute;
-  left: 62rem;
-  top: 560rem;
+  margin-left: 60rem;
+  top: 577.7rem;
   width: 20%;
 }
 
@@ -486,7 +486,7 @@ footer hr {
   width: 18%;
   position: absolute;
   top: 115rem;
-  margin-left: 65rem;
+  margin-left: 62rem;
 }
 
 .editor-pick hr {
@@ -510,7 +510,7 @@ footer hr {
 
 footer {
   position: absolute;
-  top: 625rem;
+  margin-top: 24rem;
   width: 90%;
   margin-left: 3rem;
 }
