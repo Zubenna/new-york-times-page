@@ -150,6 +150,14 @@ article h3 {
 
 .social-icons {
   cursor: pointer;
+  margin-left: 22.2rem;
+  margin-top: 0.1rem;
+}
+
+.social-icon-main img {
+  width: 1.4rem;
+  height: 1.5rem;
+  margin-right: 1rem;
 }
 
 .paragraph-group-one,
@@ -542,6 +550,11 @@ footer {
   color: #000;
   font-size: 0.9rem;
   padding-bottom: 0.3rem;
+}
+
+.footer-list a:hover,
+.footer-items a:hover {
+  text-decoration: underline;
 }
 
 .footer-list-six li :nth-child(n+2) {
