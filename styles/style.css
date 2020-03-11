@@ -38,7 +38,7 @@ header {
     font-size: 0.68rem;
     height: 2rem;
     color: #fff;
-    background-color: #567B95;
+    background-color: #567b95;
     justify-self: center;
     box-shadow: none;
     border: none;
@@ -173,7 +173,7 @@ article h3 {
     font-weight: 400;
     font-style: normal;
     font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
-    color: #666
+    color: #666;
 }
 
 .sign-container {
@@ -191,7 +191,7 @@ article h3 {
     width: 12rem;
     text-align: center;
     margin: 0 auto;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin, georgia, times new roman, times, serif;
     font-weight: 700;
     font-size: 0.93rem;
     line-height: 1.17rem;
